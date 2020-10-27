@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+.registerbox
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border:3px solid #000;
+	width:600px;
+	height:690px;
+	padding-top:85px;
+	background-color:rgba(0,0,0,0.4);
+	border-radius:20px;
+}
+
+.td1
+{
+	padding-left:15px;
+	color:rgba(255,255,255,0.8);
+	margin-left:52px;
+	text-align:left;
+	padding-top:20px;
+	display:block;
+	width:350px;
+	height:40px;
+	border:2px solid #0984e3;
+	border-radius:30px;
+	float:left;
+	font-family:"黑体";
+	font-weight:500px;
+	font-size:18px;
+	background-color:rgba(0,0,0,0.3);
+	margin-top:20px;
+}
+
+.td1 input[type="text"]
+{
+	text-align:center;
+	width:140px;
+	height:20px;
+	border:2px solid rgba(0,0,0,0.4);
+	border-radius:7px;
+	font-family:"黑体";
+	font-weight:500px;
+	font-size:25px;
+	outline:none;
+	color:white;
+	background-color:rgba(0,0,0,0.3);
+	transition:1s;
+}
+
+.td1 input[type="text"]:focus
+{
+	text-align:center;
+	width:140px;
+	height:20px;
+	border:2px solid #32ff7e;
+	border-radius:7px;
+	font-family:"黑体";
+	font-weight:500px;
+	font-size:25px;
+	outline:none;
+	color:white;
+	background-color:rgba(0,0,0,0.3);
+}
+
+.td1 input[type="password"]
+{
+	text-align:center;
+	width:140px;
+	height:20px;
+	border:2px solid rgba(0,0,0,0.4);
+	border-radius:7px;
+	font-family:"黑体";
+	font-weight:500px;
+	outline:none;
+	color:white;
+	background-color:rgba(0,0,0,0.3);
+	transition:1s;
+}
+
+.td1 input[type="password"]:focus
+{
+	text-align:center;
+	width:140px;
+	height:20px;
+	border:2px solid #32ff7e;
+	border-radius:7px;
+	font-family:"黑体";
+	font-weight:500px;
+	outline:none;
+	color:white;
+	background-color:rgba(0,0,0,0.3);
+}
+
+#city,#distinct
+{
+	text-align:center;
+	border:3px solid rgba(0,0,0,0.8);
+	border-radius:7px;
+	font-family:"黑体";
+	font-weight:500px;
+	font-size:18px;
+	outline:none;
+	color:white;
+	background-color:rgba(0,0,0,0.6);
+	cursor:pointer;
+}
+
+.td2
+{
+	display:block;
+	margin-left:130px;
+}
+
+.td2 input[type="submit"],.td2 input[type="reset"]
+{
+	color:rgba(0,0,0,0.6);
+	margin-top:25px;
+	display:block;
+	float:left;
+	font-size:24px;
+	margin-left:20px;
+	border-radius:7px;
+	background-color:rgba(0,0,0,0.4);
+	border:2px solid rgba(0,0,0,0.8);
+	cursor:pointer;
+}
+
+
+
+.td2 input[type="submit"]:active,.td2 input[type="reset"]:active
+{
+	color:white;
+	margin-top:25px;
+	display:block;
+	float:left;
+	font-size:24px;
+	margin-left:20px;
+	border-radius:7px;
+	background-color:rgba(0,0,0,0.4);
+	border:2px solid rgba(0,0,0,0.6);
+	cursor:pointer;
+}
+
+input[type="checkbox"],input[type=radio]{
+    -webkit-appearance: none;
+    vertical-align:middle;
+    margin-top:0;
+    border:2px solid black;
+    border-radius:3px;
+    height:15px;
+    width:15px;
+    outline: none;
+    position: relative;
+}
+input[type="checkbox"]:checked::after,input[type=radio]:checked::after
+{
+    content:"";
+    top:2px;
+	left:1px;
+    position: absolute;
+    border:white solid 2px;
+    border-top: none;
+    border-right: none;
+	outline:none;
+    height:4px;
+    width:8px;
+    transform: rotate(-45deg);
+    color:#fff;
+}
+
+
+
+

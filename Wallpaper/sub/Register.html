@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Register</title>
+<link rel="stylesheet" href="../css/register.css">
+<link rel="stylesheet" href="../css/whole.css">
+<link rel="stylesheet" href="../css/navigation.css">
+<script src="../javascript/register.js"></script>
+</head>
+<body>
+<div class="back">
+ <button onclick="javascript:history.back(1)">←</button>
+ <button onclick="javascript:history.go(1)">→</button>
+ </div>
+
+   <div class="navgation">
+   <a href="../index.html">首页</a>
+   <a href="Album.html">壁纸</a>
+   <a href="Login.html">登陆</a>
+   <a href="Register.html">注册</a>
+   <a href="Upload.html">上传</a>
+   <a href="Search.html">搜索</a>
+   <a href="Display.html">放映室</a>
+   </div>
+<form method="post" action="">
+<div class="registerbox">
+ 
+  <table>
+  
+  <tr>
+  <td class="td1"><label for="username">用户名&nbsp;</label><input id="username" type="text"></td>
+  </tr>
+  
+  <tr>
+  <td class="td1"><label for="password">密&nbsp;&nbsp;码&nbsp;</label><input id="password" type="password"></td>
+  </tr>
+  
+  <tr>
+  <td class="td1"><label for="gender">性&nbsp;&nbsp;别&nbsp;</label><input name="gender" type="radio">男<input name="gender" type="radio">女</td>
+  </tr>
+  
+  <tr>
+  <td class="td1"><label for="mail">邮&nbsp;&nbsp;箱&nbsp;</label><input id="mail" type="text"></td>
+  </tr>
+  
+  <tr>
+  <td colspan class="td1"><label for="city">地&nbsp;址&nbsp;</label>
+  <select id="city" onchange="distinctChange()">
+   <option value="zh">珠海</option>
+   <option value="sz">深圳</option>
+   <option value="gz">广州</option>
+  </select>
+   <select id="distinct">
+  </select>
+  </td>
+  </tr>
+  
+  <tr>
+  <td class="td1"><label>本网站&nbsp;</label>
+  <input name="check" type="checkbox">好看
+  <input name="check" type="checkbox">漂亮
+  <input name="check" type="checkbox">可爱</td>
+  </tr>
+  
+  <tr>
+  <td class="td2"><input value="提交" type="submit"><input type="reset" onclick="dreset()"></td>
+  </tr>
+  
+  </table>
+
+
+</div>
+</form>
+</body>
+</html>

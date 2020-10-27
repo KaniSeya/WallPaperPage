@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wallpaper</title>
+<link rel="stylesheet" href="css/navigation.css">
+<link rel="stylesheet" href="css/whole.css">
+<script src="javascript/change.js"></script>
+</head>
+<body>
+<div>
+ 
+ <div class="back">
+ <button onclick="javascript:history.back(1)">←</button>
+ <button onclick="javascript:history.go(1)">→</button>
+ </div>
+ 
+ <div class="banner">
+ WALLPAPER
+ </div>
+ 
+   <div class="rock">
+   <button id="btn1" onclick="b(1)"></button>
+   <button id="btn2" onclick="b(2)"></button>
+   <button id="btn3" onclick="b(3)"></button>
+   <button id="btn4" onclick="b(4)"></button>
+   <button id="btn5" onclick="b(5)"></button>
+   <button id="btn6" onclick="b(6)"></button>
+   </div>
+   
+   <div class="navgation">
+   <a href="index.html">首页</a>
+   <a href="sub/Album.html">壁纸</a>
+   <a href="sub/Login.html">登陆</a>
+   <a href="sub/Register.html">注册</a>
+   <a href="sub/Upload.html">上传</a>
+   <a href="sub/Search.html">搜索</a>
+   <a href="sub/Display.html">放映室</a>
+   </div>
+   
+   <div class="showbox">
+   <button id="lb" onclick="lchange()" >〈</button>
+   <img id="frame" src="images/1.jpg">
+   <button id="rb" onclick="rchange()">〉</button>
+   </div>
+</div>
+<audio src="audio/bgm2.mp3" loop autoplay="1" preload="auto"></audio>
+</body>
+</html>

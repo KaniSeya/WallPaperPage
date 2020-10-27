@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navgation
+{
+	margin-left:100px;
+	margin-top:100px;
+	padding-top:30px;
+	width:180px;
+	height:640px;
+	background-color:rgba(0,0,0,0.3);
+	border-radius:24px;
+	position:absolute;
+	top:110px;
+	left:200px;
+	padding-left:5px;
+}
+
+.navgation a
+{
+	margin-left:5px;
+	font-family:"黑体";
+	text-align:center;
+	background-color:rgba(0, 0, 0,0.4);
+	width:130px;
+	display:block;
+	color:white;
+	text-decoration:none;
+	margin-top:45px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:15px;
+	transition:0.5s;
+}
+
+.navgation a:hover
+{
+	background-color:#22a6b3;
+	font-family:"黑体";
+	text-align:center;
+	width:160px;
+	display:block;
+	color:white;
+	text-decoration:none;
+	margin-top:45px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:15px;
+	transition:0.5s;
+}
+
+
+
+
+
+

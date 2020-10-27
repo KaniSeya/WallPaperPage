@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.searchbox
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	height:50px;
+	width:570px;
+	padding-left:20px;
+	padding-top:6px;
+	background-color:rgba(0,0,0,0.4);
+	border-radius:20px;
+	
+}
+
+.searchbox input[type=text]
+{
+	position:relative;
+	top:-21px;
+	background-color:rgba(255,255,255,0);
+	width:500px;
+	height:40px;
+	font-size:25px;
+	color:white;
+	font-family:"黑体";
+	font-weight:500;
+	border:none;
+}
+
+.searchbox button
+{
+	position:relative;
+	margin-top:2px;
+	margin-left:2px;
+	top:-8.5px;
+	width:50px;
+	height:55px;
+	font-size:45px;
+	transform:rotate(90deg);
+	background-color:rgba(0,0,0,0);
+	border-radius:12px;
+	border:none;
+}
+
+.searchbox button:hover
+{
+	position:relative;
+	margin-top:2px;
+	margin-left:2px;
+	border-radius:12px;
+	top:-8.5px;
+	width:50px;
+	height:55px;
+	font-size:45px;
+	transform:rotate(90deg);
+	background-color:rgba(255,255,255,0.3);
+	border:none;
+}
+
+.searchbox button span
+{
+	position:relative;
+	top:-4px;
+}
